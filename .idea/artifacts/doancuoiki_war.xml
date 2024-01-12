@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="doancuoiki:war">
+    <output-path>$PROJECT_DIR$/doancuoiki/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>doancuoiki</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="doancuoiki.war">
+      <element id="artifact" artifact-name="doancuoiki:war exploded" />
+    </root>
+  </artifact>
+</component>
